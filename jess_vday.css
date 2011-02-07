@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+	color: white;
+	font: 0.8em "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}
+
+img {
+	margin: none;
+}
+
+div {
+	margin: none;
+}
+
+#comic {
+	width: 550px;
+	height: 550px;
+	border: 1px solid #666;
+	background-color: #111;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	
+	overflow: hidden;
+	position: relative;
+}
+
+#top_panels {
+	
+}
+
+#left_panel {
+	position: absolute;
+	left: 0px;
+	top: 275px;
+}
+
+#right_panel {
+	position: absolute;
+	right: 0px;
+	top: 275px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 0.7em;
+	color: #666;
+}
