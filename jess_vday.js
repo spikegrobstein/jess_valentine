@@ -2,13 +2,18 @@ $(document).ready(function() {
 	// wire up the clicking
 	// for now, let's just click the 4th panel and have it do its thing
 	
-	$('#right_panel').click(function() {
+	$('#answer_yes').click(function() {
 		// update the background
 		$('#comic').css({'background-image': 'url(images/yes_bg.png)'});
-		$(this).animate({ top: '550px' });
+		reveal();
+	});
+	
+	$('#answer_no').click(function() {
+		$('#comic').css({'background-image': 'url(images/no_bg.png)'});
+		reveal();
 	});
 });
 
-function route_answer(answer) {
-	alert(answer);
+function reveal() {
+	$('#right_panel').animate({ top: '550px' });
 }
