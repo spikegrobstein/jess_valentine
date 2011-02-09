@@ -16,5 +16,5 @@ $(document).ready(function() {
 
 function reveal() {
 	$('#right_panel').css({'border': 'none'});
-	$('#right_panel').animate({ top: '550px' });
+	$('#right_panel').animate({ top: '550px' }, 1000.0);
 }
