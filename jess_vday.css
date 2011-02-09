@@ -41,12 +41,16 @@ div {
 	position: absolute;
 	left: 0px;
 	top: 275px;
+	border-right: 2px solid black;
+	border-top: 1px solid black;
 }
 
 #right_panel {
 	position: absolute;
 	right: 0px;
 	top: 275px;
+	border-top: 1px solid black;
+	
 }
 
 #answer_yes {
